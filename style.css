@@ -1,0 +1,60 @@
+/* CSS (styles.css) */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/poster116531_3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+    border: 5px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    padding: 10px;
+    background-color: #3498db;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
